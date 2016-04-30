@@ -21,6 +21,9 @@ be changed through the web interface.
 **NB**: Please be aware that by default docker will make the exposed ports
 accessible from anywhere if the host firewall is unconfigured.
 
+**NB 2**: The Docker Compose file will switch the ports for the graphite and the grafana 
+web interfaces, so that the grafana is on the default port.
+
 ### Data volumes
 
 All data is stored in the /data folder in the container (graphite metrics and grafana db)
