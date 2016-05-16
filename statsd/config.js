@@ -7,7 +7,7 @@
   debug: false,
   deleteGauges: true,
   percentThreshold: [],
-  graphite {
+  graphite: {
     legacyNamespace: false
   }
 }
