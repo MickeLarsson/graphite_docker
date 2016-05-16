@@ -6,7 +6,7 @@
   backends: ['./backends/graphite'],
   debug: false,
   deleteGauges: true,
-  percentThreshold: [95],
+  percentThreshold: [],
   graphite:
     legacyNamespace: false
 }
